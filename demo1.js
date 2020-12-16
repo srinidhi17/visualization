@@ -301,28 +301,3 @@ var legend = legends.enter().append("g").attr("transform", function(d,i){return 
 				.attr("y", 20);	
 
 
-d3.csv("example.csv", function(data) {
-  //console.log(data);
-  var dateobj = new Date('October 13, 1996 05:35:32 GMT-3:00');
-  var B = dateobj.toISOString();
-  console.log(B);
-
-
-
-/*date = new Date();
-year = date.getFullYear();
-month = date.getMonth()+1;
-dt = date.getDate();
-
-if (dt < 10) {
-  dt = '0' + dt;
-}
-if (month < 10) {
-  month = '0' + month;
-}
-
-dates = year+'-' + month + '-'+dt
-console.log(dates);*/
-
-});
-
